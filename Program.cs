@@ -6,7 +6,7 @@ namespace Sinal
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("digite um numero inteiro para saber se ele e positivo negativo ou se é zero");
+            Console.Write("digite um numero inteiro para saber se ele e positivo negativo ou se é zero: ");
             int x = Convert.ToInt32(Console.ReadLine());
 
             if (x == 0)
