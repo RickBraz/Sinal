@@ -6,21 +6,6 @@ namespace Sinal
     {
         static void Main(string[] args)
         {
-            /*[console: Sinal] Leia um número inteiro e exiba "Negativo", "Zero" ou "Positivo", conforme o caso.
-
-Ex.:
-
-Digite um número: 35
-Positivo
-ou
-
-Digite um número: -10
-Negativo
-ou
-
-Digite um número: 0
-Zero*/
-            
             Console.WriteLine("digite um numero inteiro para saber se ele e positivo negativo ou se é zero");
             int x = Convert.ToInt32(Console.ReadLine());
 
